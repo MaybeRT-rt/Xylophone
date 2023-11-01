@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A10D42F2AF158E90077E2CD /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 4A10D42E2AF158E90077E2CD /* Sounds */; };
 		4A10D4322AF15D2E0077E2CD /* XylophoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10D4312AF15D2E0077E2CD /* XylophoneView.swift */; };
+		4A10D4342AF293750077E2CD /* XylophoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10D4332AF293750077E2CD /* XylophoneModel.swift */; };
 		4A5AD0B82AF0FC4F00FDBF30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AD0B72AF0FC4F00FDBF30 /* AppDelegate.swift */; };
 		4A5AD0BA2AF0FC4F00FDBF30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AD0B92AF0FC4F00FDBF30 /* SceneDelegate.swift */; };
 		4A5AD0BC2AF0FC4F00FDBF30 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AD0BB2AF0FC4F00FDBF30 /* XylophoneViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		4A10D42E2AF158E90077E2CD /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		4A10D4312AF15D2E0077E2CD /* XylophoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneView.swift; sourceTree = "<group>"; };
+		4A10D4332AF293750077E2CD /* XylophoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneModel.swift; sourceTree = "<group>"; };
 		4A5AD0B42AF0FC4F00FDBF30 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5AD0B72AF0FC4F00FDBF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A5AD0B92AF0FC4F00FDBF30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				4A5AD0B92AF0FC4F00FDBF30 /* SceneDelegate.swift */,
 				4A5AD0BB2AF0FC4F00FDBF30 /* XylophoneViewController.swift */,
 				4A10D4312AF15D2E0077E2CD /* XylophoneView.swift */,
+				4A10D4332AF293750077E2CD /* XylophoneModel.swift */,
 				4A10D42E2AF158E90077E2CD /* Sounds */,
 				4A5AD0C02AF0FC5000FDBF30 /* Assets.xcassets */,
 				4A5AD0C22AF0FC5000FDBF30 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				4A5AD0B82AF0FC4F00FDBF30 /* AppDelegate.swift in Sources */,
 				4A5AD0BA2AF0FC4F00FDBF30 /* SceneDelegate.swift in Sources */,
 				4A10D4322AF15D2E0077E2CD /* XylophoneView.swift in Sources */,
+				4A10D4342AF293750077E2CD /* XylophoneModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

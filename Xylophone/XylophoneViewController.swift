@@ -9,14 +9,26 @@ import UIKit
 
 class XylophoneViewController: UIViewController {
     
-    private let nameButtons = ["A", "B", "C", "D", "E", "F", "G"]
     let xylophoneView = XylophoneView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        setupUI()
     }
 
+    func setupUI() {
+        view.addSubview(xylophoneView.stackViewButton)
+        
+        NSLayoutConstraint.activate([
+        xylophoneView.stackViewButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+        xylophoneView.stackViewButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+        xylophoneView.stackViewButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+        xylophoneView.stackViewButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+        
+       
+        ])
+    }
 
 }
 
