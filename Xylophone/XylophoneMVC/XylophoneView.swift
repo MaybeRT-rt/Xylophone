@@ -41,15 +41,7 @@ class XylophoneView: UIView {
     }
     
     func setupConstraints() {
-
         addSubview(stackViewButton)
-        
-        NSLayoutConstraint.activate([
-            stackViewButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
-            stackViewButton.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor),
-            stackViewButton.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor),
-         
-        ])
     }
     
     func createButton(title: String, width: CGFloat) -> UIButton {
