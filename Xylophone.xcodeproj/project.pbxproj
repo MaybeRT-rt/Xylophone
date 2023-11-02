@@ -41,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A10D4352AF3A07E0077E2CD /* XylophoneMVC */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AD0BB2AF0FC4F00FDBF30 /* XylophoneViewController.swift */,
+				4A10D4312AF15D2E0077E2CD /* XylophoneView.swift */,
+				4A10D4332AF293750077E2CD /* XylophoneModel.swift */,
+			);
+			path = XylophoneMVC;
+			sourceTree = "<group>";
+		};
+		4A10D4362AF3A0A10077E2CD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AD0B72AF0FC4F00FDBF30 /* AppDelegate.swift */,
+				4A5AD0B92AF0FC4F00FDBF30 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		4A5AD0AB2AF0FC4F00FDBF30 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +79,8 @@
 		4A5AD0B62AF0FC4F00FDBF30 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
-				4A5AD0B72AF0FC4F00FDBF30 /* AppDelegate.swift */,
-				4A5AD0B92AF0FC4F00FDBF30 /* SceneDelegate.swift */,
-				4A5AD0BB2AF0FC4F00FDBF30 /* XylophoneViewController.swift */,
-				4A10D4312AF15D2E0077E2CD /* XylophoneView.swift */,
-				4A10D4332AF293750077E2CD /* XylophoneModel.swift */,
+				4A10D4362AF3A0A10077E2CD /* AppDelegate */,
+				4A10D4352AF3A07E0077E2CD /* XylophoneMVC */,
 				4A10D42E2AF158E90077E2CD /* Sounds */,
 				4A5AD0C02AF0FC5000FDBF30 /* Assets.xcassets */,
 				4A5AD0C22AF0FC5000FDBF30 /* LaunchScreen.storyboard */,
