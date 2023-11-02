@@ -33,7 +33,6 @@ class XylophoneView: UIView {
     init() {
         super.init(frame: .zero)
         setupConstraints()
-        //createButton()
         createdButtons()
     }
     
